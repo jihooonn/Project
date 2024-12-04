@@ -106,7 +106,7 @@ public class PushAgentBasic : Agent
     /// </summary>
     public void ScoredAGoal()
     {
-        // We use a reward of 5.
+        // We use a reward of 10.
         AddReward(10f);
 
         // By marking an agent as done AgentReset() will be called automatically.
